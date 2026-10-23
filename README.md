@@ -1,32 +1,21 @@
 # 🔧 Git & GitHub | Nicollas Rodrigo
 
-Repositório dedicado à prática de versionamento, organização de arquivos e publicação de projetos no GitHub.
+Repositório de apoio aos meus estudos sobre versionamento, organização de arquivos e publicação de projetos.
 
-## 🚀 Projeto da atividade
+## 📌 Projeto em destaque
 
-### [Portfólio Grid com Bootstrap](./projetos/portfolio-grid-bootstrap/)
+Para evitar manter cópias do mesmo código em vários repositórios, o portfólio com Bootstrap fica no repositório de CSS:
 
-Projeto web responsivo desenvolvido com HTML, CSS, JavaScript e Bootstrap. Esta versão está publicada aqui para facilitar a avaliação da atividade da disciplina.
+[Portfólio Grid com Bootstrap — estudos-css](https://github.com/NicollasRodrigo/estudos-css/tree/main/projetos/portfolio-grid-bootstrap)
 
-- [Abrir os arquivos](./projetos/portfolio-grid-bootstrap/)
-- [Ler o README do projeto](./projetos/portfolio-grid-bootstrap/README.md)
-- [Ver a versão principal em estudos-css](https://github.com/NicollasRodrigo/estudos-css/tree/main/projetos/portfolio-grid-bootstrap)
+## 🔗 Links
 
-## 🛠️ Tecnologias
+- [Meu perfil no GitHub](https://github.com/NicollasRodrigo)
+- [Repositório de estudos em HTML](https://github.com/NicollasRodrigo/estudos-html)
+- [Repositório de estudos em CSS](https://github.com/NicollasRodrigo/estudos-css)
+- [LinkedIn](https://www.linkedin.com/in/nicollas-rodrigo-251657423/)
 
-HTML5 · CSS3 · JavaScript · Bootstrap 5 · Font Awesome · EmailJS · Toastify
+## 👨‍💻 Sobre
 
-## 📦 Como executar
+Sou estudante de Análise e Desenvolvimento de Sistemas na UNIPÊ e utilizo o Git e o GitHub para organizar meus estudos e acompanhar a evolução dos projetos.
 
-1. Clone ou baixe este repositório.
-2. Abra a pasta `projetos/portfolio-grid-bootstrap` no VS Code.
-3. Execute `index.html` com o Live Server.
-4. Mantenha a internet ativa para carregar as bibliotecas externas.
-
-## 📤 Entrega
-
-As instruções da atividade pedem o link do perfil do GitHub: [github.com/NicollasRodrigo](https://github.com/NicollasRodrigo).
-
-## 👨‍💻 Autor
-
-Nicollas Rodrigo · Estudante de Análise e Desenvolvimento de Sistemas na UNIPÊ
