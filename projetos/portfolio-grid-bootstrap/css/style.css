@@ -1,0 +1,324 @@
+/* Configurações gerais */
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+  font-family: Arial, sans-serif;
+  background-color: #F6F6F1;
+  color: #303831;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3 {
+  overflow-wrap: break-word;
+}
+
+/* Tema escuro, ativado pelo atributo data-theme no elemento html */
+html[data-theme="dark"] body {
+  background-color: #202923;
+  color: #E7ECE6;
+}
+
+html[data-theme="dark"] .inicio {
+  background-color: #2D3A31;
+}
+
+html[data-theme="dark"] .inicio h1,
+html[data-theme="dark"] .card-title {
+  color: #CFD8CC;
+}
+
+html[data-theme="dark"] #projetos.bg-light {
+  background-color: #27332B !important;
+}
+
+html[data-theme="dark"] .text-secondary {
+  color: #C5CEC5 !important;
+}
+
+html[data-theme="dark"] .card,
+html[data-theme="dark"] .contact-form {
+  background-color: #2A352D;
+  color: #E7ECE6;
+  border: 1px solid rgba(198, 214, 190, 0.14);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
+}
+
+html[data-theme="dark"] .contact-form .form-control {
+  background-color: #202923;
+  color: #E7ECE6;
+  border-color: #5B6B60;
+}
+
+html[data-theme="dark"] .contact-form .form-control::placeholder {
+  color: #C5CEC5;
+}
+
+html[data-theme="dark"] footer {
+  background-color: #19221D;
+}
+
+.theme-toggle {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navegação */
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-brand:hover {
+  color: #C8B992;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus-visible,
+.navbar-dark .navbar-brand:focus-visible {
+  color: #C8B992;
+  outline: 2px solid #C8B992;
+  outline-offset: 3px;
+}
+
+/* Menu lateral em telas menores */
+@media (max-width: 1199.98px) {
+  #menu.offcanvas-xl {
+    width: min(85vw, 22rem);
+    --bs-bg-opacity: 0.92;
+    backdrop-filter: blur(8px);
+    transition: transform 0.35s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+}
+
+/* Apresentação */
+.inicio {
+  background-color: #E9EFE8;
+  padding: 90px 20px;
+}
+
+.inicio h1 {
+  color: #536D5D;
+  font-weight: bold;
+}
+
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  max-width: 100%;
+  object-fit: cover;
+  border: 2px solid #C8B992;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Botões */
+.btn-primary {
+  background-color: #536D5D;
+  border-color: #536D5D;
+}
+
+.btn-primary:hover {
+  background-color: #405648;
+  border-color: #405648;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.25rem rgba(83, 109, 93, 0.34);
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #405648;
+  border-color: #405648;
+}
+
+/* Campos do formulário */
+.contact-form .form-label {
+  font-weight: 600;
+}
+
+.contact-form #form-status {
+  min-height: 1.25rem;
+}
+
+.contact-form {
+  padding: 1.5rem;
+  background-color: #FCFCF8;
+  border: 1px solid rgba(83, 109, 93, 0.14);
+  border-radius: 0.75rem;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-control:focus {
+  border-color: #536D5D;
+  box-shadow: 0 0 0 0.25rem rgba(83, 109, 93, 0.2);
+}
+
+@media (max-width: 575.98px) {
+  .contact-form {
+    padding: 1rem;
+  }
+}
+
+/* Seções e cartões */
+section,
+header[id] {
+  scroll-margin-top: 70px;
+}
+
+.card {
+  height: 100%;
+  color: #303831;
+  background-color: #FCFCF8;
+  border: 1px solid rgba(83, 109, 93, 0.08);
+  box-shadow: 0 3px 12px rgba(35, 49, 40, 0.06);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card-title {
+  color: #536D5D;
+}
+
+/* Efeito de entrada ativado pelo JavaScript */
+[data-reveal] {
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+[data-reveal].is-hidden {
+  opacity: 0;
+  transform: translateY(1rem);
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 767.98px) {
+  .inicio {
+    padding: 3.5rem 0.75rem;
+  }
+
+  .inicio .container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .inicio h1 {
+    font-size: clamp(1.75rem, 7vw, 2.25rem);
+  }
+
+  .inicio .lead {
+    font-size: 1.1rem;
+  }
+}
+
+/* Rodapé */
+footer {
+  background-color: #303831;
+  color: white;
+}
+
+/* Respeita a preferência do usuário por menos movimento */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  #menu.offcanvas-xl,
+  .card,
+  [data-reveal] {
+    transition: none !important;
+  }
+
+  .card:hover,
+  [data-reveal].is-hidden,
+  [data-reveal].is-visible {
+    transform: none;
+  }
+
+  [data-reveal].is-hidden {
+    opacity: 1;
+  }
+}
+
+/* Paleta calma: verde-sálvia, marfim e areia */
+.navbar.navbar-dark.bg-dark {
+  background-color: #27362E !important;
+}
+
+#menu.offcanvas-xl {
+  --bs-bg-opacity: 1;
+  background-color: #27362E !important;
+}
+
+#projetos.bg-light {
+  background-color: #EEF1EB !important;
+}
+
+html[data-theme="dark"] #projetos.bg-light {
+  background-color: #27332B !important;
+}
+
+html[data-theme="dark"] .navbar.navbar-dark.bg-dark,
+html[data-theme="dark"] #menu.offcanvas-xl {
+  background-color: #19241E !important;
+}
+
+html[data-theme="dark"] .inicio h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] #contato h3 {
+  color: #D5DED4;
+}
+
+html[data-theme="dark"] .card-text,
+html[data-theme="dark"] #sobre p,
+html[data-theme="dark"] #contato p {
+  color: #E0E5DF;
+}
+
+.form-control,
+.contact-form {
+  background-color: #FCFCF8;
+}
+
+.form-control {
+  color: #303831;
+}
+
+.form-control:focus-visible,
+.btn:focus-visible,
+a:focus-visible {
+  outline: 3px solid #C8B992;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .btn,
+  .nav-link,
+  .navbar-brand {
+    transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+  }
+}
