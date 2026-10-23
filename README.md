@@ -1,21 +1,15 @@
-# 🔧 Git & GitHub | Nicollas Rodrigo
+# Estudos de Git e GitHub
 
-Repositório de apoio aos meus estudos sobre versionamento, organização de arquivos e publicação de projetos.
+Criei este repositório para organizar meus estudos sobre Git e GitHub.
 
-## 📌 Projeto em destaque
+O portfólio que fiz com Bootstrap está no meu repositório de CSS:
+[Portfólio Grid com Bootstrap](https://github.com/NicollasRodrigo/estudos-css/tree/main/projetos/portfolio-grid-bootstrap)
 
-Para evitar manter cópias do mesmo código em vários repositórios, o portfólio com Bootstrap fica no repositório de CSS:
-
-[Portfólio Grid com Bootstrap — estudos-css](https://github.com/NicollasRodrigo/estudos-css/tree/main/projetos/portfolio-grid-bootstrap)
-
-## 🔗 Links
+## Meus links
 
 - [Meu perfil no GitHub](https://github.com/NicollasRodrigo)
-- [Repositório de estudos em HTML](https://github.com/NicollasRodrigo/estudos-html)
-- [Repositório de estudos em CSS](https://github.com/NicollasRodrigo/estudos-css)
+- [Estudos de HTML](https://github.com/NicollasRodrigo/estudos-html)
+- [Estudos de CSS](https://github.com/NicollasRodrigo/estudos-css)
 - [LinkedIn](https://www.linkedin.com/in/nicollas-rodrigo-251657423/)
 
-## 👨‍💻 Sobre
-
-Sou estudante de Análise e Desenvolvimento de Sistemas na UNIPÊ e utilizo o Git e o GitHub para organizar meus estudos e acompanhar a evolução dos projetos.
-
+Sou estudante de Análise e Desenvolvimento de Sistemas na UNIPÊ e uso esses repositórios para praticar e acompanhar meu aprendizado.
