@@ -1,20 +1,20 @@
 # Estudos de Git e GitHub
 
-Repositório de prática de versionamento com Git e publicação de projetos no GitHub.
+Repositório público para registrar a prática de versionamento com Git e organização de projetos no GitHub.
 
-## Atividade mais recente — Aula 08
+## Atividade da disciplina
 
-A atividade mais recente que identifiquei nos materiais enviados foi o **Portfólio Grid com Bootstrap**, da disciplina Desenvolvimento Front-End para Web.
+A atividade mais recente identificada nos materiais enviados é o **Portfólio Grid com Bootstrap**, utilizado para praticar a organização e a publicação de um projeto web.
 
-- [Abrir o projeto completo neste repositório](./projetos/portfolio-grid-bootstrap/)
+- [Abrir o projeto](./projetos/portfolio-grid-bootstrap/)
 - [Ler o README do projeto](./projetos/portfolio-grid-bootstrap/README.md)
-- [Ver a versão mantida no repositório de estudos de CSS](https://github.com/NicollasRodrigo/estudos-css/tree/main/projetos/portfolio-grid-bootstrap)
+- [Ver a versão principal de estudos em CSS](https://github.com/NicollasRodrigo/estudos-css/tree/main/projetos/portfolio-grid-bootstrap)
 
-## Tecnologias
+## Tecnologias do projeto
 
 HTML5, CSS3, JavaScript, Bootstrap 5, Font Awesome, EmailJS e Toastify.
 
-## Estrutura
+## Estrutura do repositório
 
 ```text
 estudos-git-github/
@@ -31,15 +31,25 @@ estudos-git-github/
                 └── index.js
 ```
 
-## Como executar
+## Como executar o projeto
 
-1. Baixe ou clone este repositório.
+1. Clone ou baixe este repositório.
 2. Abra a pasta `projetos/portfolio-grid-bootstrap` no VS Code.
-3. Abra o `index.html` com o Live Server.
-4. Mantenha a internet ativa para carregar Bootstrap, Font Awesome, EmailJS e Toastify.
+3. Execute o arquivo `index.html` com o Live Server.
+4. Mantenha a internet ativa para carregar as bibliotecas externas.
 
-O formulário de contato depende da configuração do serviço e do template no EmailJS. A mensagem de sucesso só deve ser considerada confirmada depois de realizar um envio de teste e verificar o recebimento.
+Consulte o README dentro da pasta do projeto para as instruções específicas do formulário de contato.
 
-## Observação sobre a cópia
+## Entrega da atividade
 
-O projeto foi copiado para este repositório para facilitar a avaliação da atividade de Git e GitHub. O repositório `estudos-css` foi mantido intacto. As duas cópias não são sincronizadas automaticamente.
+As instruções recebidas pedem o link do perfil do GitHub. Use:
+
+[https://github.com/NicollasRodrigo](https://github.com/NicollasRodrigo)
+
+## Observação sobre as cópias
+
+A cópia deste projeto está neste repositório para facilitar a avaliação da atividade de Git e GitHub. A versão principal de estudo permanece em `estudos-css`. Alterações em uma cópia não são replicadas automaticamente para a outra.
+
+## Autor
+
+Nicollas Rodrigo — [perfil do GitHub](https://github.com/NicollasRodrigo)
